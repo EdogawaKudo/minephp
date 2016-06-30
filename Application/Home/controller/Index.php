@@ -17,6 +17,6 @@ class Index extends Controller
 {
     public function index()
     {
-        Db::connect();
+        View::make()
     }
 }
